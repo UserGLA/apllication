@@ -1,0 +1,182 @@
+.form {
+    position: fixed;
+    top: 10%;
+    z-index: 1;
+    width: 90%;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+.disable {
+    display: none;
+}
+
+.fieldset {
+    position: relative;
+    height: 100%;
+    border: 3px solid var(--clr-blue);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.select {
+    margin: 10px;
+    padding: 10px;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.select:focus {
+    outline: none;
+}
+
+.legend {
+    margin-left: 20px;
+}
+
+.bort-foot {
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.check-option {
+    margin-bottom: 5px;
+    z-index: 5;
+}
+
+.check-option-bort {
+    margin-right: 20px;
+}
+
+.check-input {
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+.check-input:checked + .check-box {
+    background-color: var(--clr-green);
+}
+
+.check-box {
+    display: block;
+    width: 10em;
+    height: 4em;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 4px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.fieldset-shield {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.fieldset-shield-privod {
+    margin-bottom: 0px;
+}
+
+.check-input {
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+.shield-label {
+    padding: 10px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+.shield-span {
+    display: block;
+    width: 3em;
+    height: 3em;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 4px;
+    margin-top: -30px;
+    margin-left: -15px;
+}
+
+.check-input:checked + .shield-span {
+    background-color: var(--clr-green);
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.price {
+    width: 45%;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.price:focus {
+    outline: none;
+}
+
+.btns {
+    display: flex;
+    margin-bottom: 20px;
+    top: 90%;
+    position: absolute;
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    background-color: var(--clr-blue);
+    color: white;
+    width: 44%;
+    height: 40px;
+    margin: 0 auto;
+    border: 1.5px solid var(--clr-green);
+    border-radius: 10px;
+}
+
+.btn:active {
+    background-color: var(--clr-green);
+}
+
+.form-one {
+    width: 9em;
+    height: 3.5em;
+    margin-top: -32px;
+    margin-left: -27px;
+}
+
+.coment {
+    resize: none;
+    display: block;
+    width: 90%;
+    height: 20em;
+    margin: 15px auto;
+    padding: 5px;
+    border: 1.5px solid var(--clr-blue);
+    border-radius: 4px;
+}
+
+.coment:focus {
+    outline: none;
+}
